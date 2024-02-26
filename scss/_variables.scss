@@ -1,0 +1,23 @@
+
+.red-button {
+    display: inline-flex;
+    padding: 11px 23px 10px 23px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #EB3F57 0%, #893944 100%);
+    box-shadow: 10px 10px 20px 0px rgba(170, 170, 204, 0.50), 5px 5px 10px 0px rgba(170, 170, 204, 0.25);
+
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.red-button:hover {
+    background: #EB3F57;
+    box-shadow: -1px -1px 2px 0px #FFF inset, 1px 1px 2px 0px rgba(170, 170, 204, 0.50) inset;
+}
